@@ -1,2 +1,3 @@
-# audio_mnist
-DACON personal project: audio classification
+# Audio MNIST
+- My Person DACON Projects
+- Classify Audio with number labels
