@@ -10,7 +10,7 @@
 
 - 음성 녹음 데이터를 0부터 9 사이의 숫자 라벨로 분류
 - 음성 데이터 학습에 대한 체험을 목적으로 진행
-- Mel Spectrogram, MFCC 방식으로 추출한 feature를 각각 ResNet 응용 모델에 학습시키고
+- Mel Spectrogram, MFCC 방식으로 추출한 feature를 각각 ResNet 응용 모델에 학습시키고   
 결과를 ensemble하여 accuracy를 0.9725까지 향상
 
 ---
@@ -67,7 +67,7 @@
     
     ![output.png](.images/output_3.png)
     
-- 5-Fold 교차검증을 실시하면서, 각각의 동일한 모델에 Mel Spectrogram, MFCC feature를 학습시켜
+- 5-Fold 교차검증을 실시하면서, 각각의 동일한 모델에 Mel Spectrogram, MFCC feature를 학습시켜   
 서로의 예측값 및 accuracy를 비교
 - 두 가지 예측 결과를 ensemble하여 최종적으로 0.9765의 평균 accuracy 달성
     
@@ -96,5 +96,5 @@
 ## 회고
 
 - 베이스라인과 다른 분이 올려준 코드 공유를 많이 참고하다보니 자신만의 분석을 해볼 수 없어 아쉬움
-- 음성 데이터 분석 과정을 체험하는 좋은 기회가 되었으며,
+- 음성 데이터 분석 과정을 체험하는 좋은 기회가 되었으며,   
 다른 음성 데이터에 이번에 배운 분석 방식을 적용해보고 싶은 기대감을 가짐
